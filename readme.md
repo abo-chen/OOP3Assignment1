@@ -20,4 +20,4 @@ Heap sort is not a stable sort, meaning the relative order of equal sort items i
 
 ## Testing
 
-We have also tested the `sort.jar` and documented the results in `out.txt`.
+We use a 'test.bat' batch file to test `sort.jar`, and then record the output to `out.txt`.

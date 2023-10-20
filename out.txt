@@ -15,7 +15,10 @@ Testing Invalid Sort Type...
 File Name: polyfor1.txt, Sort Type: k, Compare Type: v.
 loading 20237 Datas ... Shapes loaded: 20237.
 Start Sorting ... Invalid sorting algorithm: k
-Sorting took: 7 milliseconds.
+Sorting took: 8 milliseconds.
+First: shape.Cylinder@7f63425a
+shape.OctagonalPrism@36d64342 shape.Cone@511baa65 shape.OctagonalPrism@340f438e shape.SquarePrism@30c7da1e shape.Pyramid@5b464ce8 shape.PentagonalPrism@57829d67 shape.PentagonalPrism@19dfb72a shape.Pyramid@17c68925 shape.PentagonalPrism@7e0ea639 shape.PentagonalPrism@3d24753a shape.OctagonalPrism@59a6e353 shape.Cylinder@7a0ac6e3 shape.Cylinder@71be98f5 shape.Cylinder@6fadae5d shape.SquarePrism@17f6480 shape.Pyramid@2d6e8792 shape.Cone@2812cbfa shape.Pyramid@2acf57e3 shape.TriangularPrism@506e6d5e shape.TriangularPrism@96532d6 
+Last: shape.OctagonalPrism@3796751b
 -------------------------------
 Testing existing file: polyfor1.txt...
 -------------------------------
@@ -25,79 +28,133 @@ Testing height (h) sorting type:
 Using Bubble Sort:
 File Name: polyfor1.txt, Sort Type: b, Compare Type: h.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 8610 milliseconds.
+Start Sorting ... Sorting took: 6794 milliseconds.
+First: shape.PentagonalPrism@7f63425a
+shape.SquarePrism@36d64342 shape.Cylinder@511baa65 shape.TriangularPrism@340f438e shape.Cylinder@30c7da1e shape.OctagonalPrism@5b464ce8 shape.OctagonalPrism@57829d67 shape.Cone@19dfb72a shape.SquarePrism@17c68925 shape.TriangularPrism@7e0ea639 shape.SquarePrism@3d24753a shape.Pyramid@59a6e353 shape.OctagonalPrism@7a0ac6e3 shape.PentagonalPrism@71be98f5 shape.PentagonalPrism@6fadae5d shape.PentagonalPrism@17f6480 shape.Cone@2d6e8792 shape.PentagonalPrism@2812cbfa shape.Pyramid@2acf57e3 shape.Cylinder@506e6d5e shape.Cylinder@96532d6 
+Last: shape.Cylinder@3796751b
 Using Insertion Sort:
 File Name: polyfor1.txt, Sort Type: i, Compare Type: h.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 2659 milliseconds.
+Start Sorting ... Sorting took: 3155 milliseconds.
+First: shape.PentagonalPrism@7f63425a
+shape.SquarePrism@36d64342 shape.Cylinder@511baa65 shape.TriangularPrism@340f438e shape.Cylinder@30c7da1e shape.OctagonalPrism@5b464ce8 shape.OctagonalPrism@57829d67 shape.Cone@19dfb72a shape.SquarePrism@17c68925 shape.TriangularPrism@7e0ea639 shape.SquarePrism@3d24753a shape.Pyramid@59a6e353 shape.OctagonalPrism@7a0ac6e3 shape.PentagonalPrism@71be98f5 shape.PentagonalPrism@6fadae5d shape.PentagonalPrism@17f6480 shape.Cone@2d6e8792 shape.PentagonalPrism@2812cbfa shape.Pyramid@2acf57e3 shape.Cylinder@506e6d5e shape.Cylinder@96532d6 
+Last: shape.Cylinder@3796751b
 Using Selection Sort:
 File Name: polyfor1.txt, Sort Type: s, Compare Type: h.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 5315 milliseconds.
+Start Sorting ... Sorting took: 4942 milliseconds.
+First: shape.PentagonalPrism@7f63425a
+shape.SquarePrism@36d64342 shape.Cylinder@511baa65 shape.TriangularPrism@340f438e shape.Cylinder@30c7da1e shape.OctagonalPrism@5b464ce8 shape.OctagonalPrism@57829d67 shape.Cone@19dfb72a shape.SquarePrism@17c68925 shape.TriangularPrism@7e0ea639 shape.SquarePrism@3d24753a shape.Pyramid@59a6e353 shape.OctagonalPrism@7a0ac6e3 shape.PentagonalPrism@71be98f5 shape.PentagonalPrism@6fadae5d shape.PentagonalPrism@17f6480 shape.Cone@2d6e8792 shape.PentagonalPrism@2812cbfa shape.Pyramid@2acf57e3 shape.Cylinder@506e6d5e shape.Cylinder@96532d6 
+Last: shape.Cylinder@3796751b
 Using Merge Sort:
 File Name: polyfor1.txt, Sort Type: m, Compare Type: h.
 loading 20237 Datas ... Shapes loaded: 20237.
 Start Sorting ... Sorting took: 27 milliseconds.
+First: shape.PentagonalPrism@7f63425a
+shape.SquarePrism@36d64342 shape.Cylinder@511baa65 shape.TriangularPrism@340f438e shape.Cylinder@30c7da1e shape.OctagonalPrism@5b464ce8 shape.OctagonalPrism@57829d67 shape.Cone@19dfb72a shape.SquarePrism@17c68925 shape.TriangularPrism@7e0ea639 shape.SquarePrism@3d24753a shape.Pyramid@59a6e353 shape.OctagonalPrism@7a0ac6e3 shape.PentagonalPrism@71be98f5 shape.PentagonalPrism@6fadae5d shape.PentagonalPrism@17f6480 shape.Cone@2d6e8792 shape.PentagonalPrism@2812cbfa shape.Pyramid@2acf57e3 shape.Cylinder@506e6d5e shape.Cylinder@96532d6 
+Last: shape.Cylinder@3796751b
 Using QuickSort:
 File Name: polyfor1.txt, Sort Type: q, Compare Type: h.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 23 milliseconds.
+Start Sorting ... Sorting took: 33 milliseconds.
+First: shape.PentagonalPrism@7f63425a
+shape.SquarePrism@36d64342 shape.Cylinder@511baa65 shape.TriangularPrism@340f438e shape.Cylinder@30c7da1e shape.OctagonalPrism@5b464ce8 shape.OctagonalPrism@57829d67 shape.Cone@19dfb72a shape.SquarePrism@17c68925 shape.TriangularPrism@7e0ea639 shape.SquarePrism@3d24753a shape.Pyramid@59a6e353 shape.OctagonalPrism@7a0ac6e3 shape.PentagonalPrism@71be98f5 shape.PentagonalPrism@6fadae5d shape.PentagonalPrism@17f6480 shape.Cone@2d6e8792 shape.PentagonalPrism@2812cbfa shape.Pyramid@2acf57e3 shape.Cylinder@506e6d5e shape.Cylinder@96532d6 
+Last: shape.Cylinder@3796751b
 Using Custom Sort:
 File Name: polyfor1.txt, Sort Type: z, Compare Type: h.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 31 milliseconds.
+Start Sorting ... Sorting took: 37 milliseconds.
+First: shape.PentagonalPrism@7f63425a
+shape.SquarePrism@36d64342 shape.Cylinder@511baa65 shape.TriangularPrism@340f438e shape.Cylinder@30c7da1e shape.OctagonalPrism@5b464ce8 shape.OctagonalPrism@57829d67 shape.Cone@19dfb72a shape.SquarePrism@17c68925 shape.TriangularPrism@7e0ea639 shape.SquarePrism@3d24753a shape.Pyramid@59a6e353 shape.OctagonalPrism@7a0ac6e3 shape.PentagonalPrism@71be98f5 shape.PentagonalPrism@6fadae5d shape.PentagonalPrism@17f6480 shape.Cone@2d6e8792 shape.PentagonalPrism@2812cbfa shape.Pyramid@2acf57e3 shape.Cylinder@506e6d5e shape.Cylinder@96532d6 
+Last: shape.Cylinder@3796751b
 -----
 Testing Area (a) sorting type:
 -----
 Using Bubble Sort:
 File Name: polyfor1.txt, Sort Type: b, Compare Type: a.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 8227 milliseconds.
+Start Sorting ... Sorting took: 7580 milliseconds.
+First: shape.TriangularPrism@7f63425a
+shape.Cylinder@36d64342 shape.PentagonalPrism@511baa65 shape.PentagonalPrism@340f438e shape.SquarePrism@30c7da1e shape.TriangularPrism@5b464ce8 shape.OctagonalPrism@57829d67 shape.OctagonalPrism@19dfb72a shape.SquarePrism@17c68925 shape.PentagonalPrism@7e0ea639 shape.Cylinder@3d24753a shape.OctagonalPrism@59a6e353 shape.PentagonalPrism@7a0ac6e3 shape.SquarePrism@71be98f5 shape.OctagonalPrism@6fadae5d shape.PentagonalPrism@17f6480 shape.Pyramid@2d6e8792 shape.Cone@2812cbfa shape.Cylinder@2acf57e3 shape.Cylinder@506e6d5e shape.OctagonalPrism@96532d6 
+Last: shape.OctagonalPrism@3796751b
 Using Insertion Sort:
 File Name: polyfor1.txt, Sort Type: i, Compare Type: a.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 2873 milliseconds.
+Start Sorting ... Sorting took: 2798 milliseconds.
+First: shape.TriangularPrism@7f63425a
+shape.Cylinder@36d64342 shape.PentagonalPrism@511baa65 shape.PentagonalPrism@340f438e shape.SquarePrism@30c7da1e shape.TriangularPrism@5b464ce8 shape.OctagonalPrism@57829d67 shape.OctagonalPrism@19dfb72a shape.SquarePrism@17c68925 shape.PentagonalPrism@7e0ea639 shape.Cylinder@3d24753a shape.OctagonalPrism@59a6e353 shape.PentagonalPrism@7a0ac6e3 shape.SquarePrism@71be98f5 shape.OctagonalPrism@6fadae5d shape.PentagonalPrism@17f6480 shape.Pyramid@2d6e8792 shape.Cone@2812cbfa shape.Cylinder@2acf57e3 shape.Cylinder@506e6d5e shape.OctagonalPrism@96532d6 
+Last: shape.OctagonalPrism@3796751b
 Using Selection Sort:
 File Name: polyfor1.txt, Sort Type: s, Compare Type: a.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 5702 milliseconds.
+Start Sorting ... Sorting took: 5393 milliseconds.
+First: shape.TriangularPrism@7f63425a
+shape.Cylinder@36d64342 shape.PentagonalPrism@511baa65 shape.PentagonalPrism@340f438e shape.SquarePrism@30c7da1e shape.TriangularPrism@5b464ce8 shape.OctagonalPrism@57829d67 shape.OctagonalPrism@19dfb72a shape.SquarePrism@17c68925 shape.PentagonalPrism@7e0ea639 shape.Cylinder@3d24753a shape.OctagonalPrism@59a6e353 shape.PentagonalPrism@7a0ac6e3 shape.SquarePrism@71be98f5 shape.OctagonalPrism@6fadae5d shape.PentagonalPrism@17f6480 shape.Pyramid@2d6e8792 shape.Cone@2812cbfa shape.Cylinder@2acf57e3 shape.Cylinder@506e6d5e shape.OctagonalPrism@96532d6 
+Last: shape.OctagonalPrism@3796751b
 Using Merge Sort:
 File Name: polyfor1.txt, Sort Type: m, Compare Type: a.
 loading 20237 Datas ... Shapes loaded: 20237.
 Start Sorting ... Sorting took: 25 milliseconds.
+First: shape.TriangularPrism@7f63425a
+shape.Cylinder@36d64342 shape.PentagonalPrism@511baa65 shape.PentagonalPrism@340f438e shape.SquarePrism@30c7da1e shape.TriangularPrism@5b464ce8 shape.OctagonalPrism@57829d67 shape.OctagonalPrism@19dfb72a shape.SquarePrism@17c68925 shape.PentagonalPrism@7e0ea639 shape.Cylinder@3d24753a shape.OctagonalPrism@59a6e353 shape.PentagonalPrism@7a0ac6e3 shape.SquarePrism@71be98f5 shape.OctagonalPrism@6fadae5d shape.PentagonalPrism@17f6480 shape.Pyramid@2d6e8792 shape.Cone@2812cbfa shape.Cylinder@2acf57e3 shape.Cylinder@506e6d5e shape.OctagonalPrism@96532d6 
+Last: shape.OctagonalPrism@3796751b
 Using QuickSort:
 File Name: polyfor1.txt, Sort Type: q, Compare Type: a.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 25 milliseconds.
+Start Sorting ... Sorting took: 22 milliseconds.
+First: shape.TriangularPrism@7f63425a
+shape.Cylinder@36d64342 shape.PentagonalPrism@511baa65 shape.PentagonalPrism@340f438e shape.SquarePrism@30c7da1e shape.TriangularPrism@5b464ce8 shape.OctagonalPrism@57829d67 shape.OctagonalPrism@19dfb72a shape.SquarePrism@17c68925 shape.PentagonalPrism@7e0ea639 shape.Cylinder@3d24753a shape.OctagonalPrism@59a6e353 shape.PentagonalPrism@7a0ac6e3 shape.SquarePrism@71be98f5 shape.OctagonalPrism@6fadae5d shape.PentagonalPrism@17f6480 shape.Pyramid@2d6e8792 shape.Cone@2812cbfa shape.Cylinder@2acf57e3 shape.Cylinder@506e6d5e shape.OctagonalPrism@96532d6 
+Last: shape.OctagonalPrism@3796751b
 Using Custom Sort:
 File Name: polyfor1.txt, Sort Type: z, Compare Type: a.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 34 milliseconds.
+Start Sorting ... Sorting took: 29 milliseconds.
+First: shape.TriangularPrism@7f63425a
+shape.Cylinder@36d64342 shape.PentagonalPrism@511baa65 shape.PentagonalPrism@340f438e shape.SquarePrism@30c7da1e shape.TriangularPrism@5b464ce8 shape.OctagonalPrism@57829d67 shape.OctagonalPrism@19dfb72a shape.SquarePrism@17c68925 shape.PentagonalPrism@7e0ea639 shape.Cylinder@3d24753a shape.OctagonalPrism@59a6e353 shape.PentagonalPrism@7a0ac6e3 shape.SquarePrism@71be98f5 shape.OctagonalPrism@6fadae5d shape.PentagonalPrism@17f6480 shape.Pyramid@2d6e8792 shape.Cone@2812cbfa shape.Cylinder@2acf57e3 shape.Cylinder@506e6d5e shape.OctagonalPrism@96532d6 
+Last: shape.OctagonalPrism@3796751b
 -----
 Testing volume (v) sorting type:
 -----
 Using Bubble Sort:
 File Name: polyfor1.txt, Sort Type: b, Compare Type: v.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 9714 milliseconds.
+Start Sorting ... Sorting took: 8520 milliseconds.
+First: shape.Pyramid@7f63425a
+shape.SquarePrism@36d64342 shape.Cone@511baa65 shape.PentagonalPrism@340f438e shape.PentagonalPrism@30c7da1e shape.SquarePrism@5b464ce8 shape.TriangularPrism@57829d67 shape.OctagonalPrism@19dfb72a shape.Cone@17c68925 shape.Pyramid@7e0ea639 shape.PentagonalPrism@3d24753a shape.SquarePrism@59a6e353 shape.OctagonalPrism@7a0ac6e3 shape.SquarePrism@71be98f5 shape.Cone@6fadae5d shape.Cone@17f6480 shape.Cone@2d6e8792 shape.Cone@2812cbfa shape.Cylinder@2acf57e3 shape.Cylinder@506e6d5e shape.Cylinder@96532d6 
+Last: shape.OctagonalPrism@3796751b
 Using Insertion Sort:
 File Name: polyfor1.txt, Sort Type: i, Compare Type: v.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 3850 milliseconds.
+Start Sorting ... Sorting took: 3073 milliseconds.
+First: shape.Pyramid@7f63425a
+shape.SquarePrism@36d64342 shape.Cone@511baa65 shape.PentagonalPrism@340f438e shape.PentagonalPrism@30c7da1e shape.SquarePrism@5b464ce8 shape.TriangularPrism@57829d67 shape.OctagonalPrism@19dfb72a shape.Cone@17c68925 shape.Pyramid@7e0ea639 shape.PentagonalPrism@3d24753a shape.SquarePrism@59a6e353 shape.OctagonalPrism@7a0ac6e3 shape.SquarePrism@71be98f5 shape.Cone@6fadae5d shape.Cone@17f6480 shape.Cone@2d6e8792 shape.Cone@2812cbfa shape.Cylinder@2acf57e3 shape.Cylinder@506e6d5e shape.Cylinder@96532d6 
+Last: shape.OctagonalPrism@3796751b
 Using Selection Sort:
 File Name: polyfor1.txt, Sort Type: s, Compare Type: v.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 8062 milliseconds.
+Start Sorting ... Sorting took: 6181 milliseconds.
+First: shape.Pyramid@7f63425a
+shape.SquarePrism@36d64342 shape.Cone@511baa65 shape.PentagonalPrism@340f438e shape.PentagonalPrism@30c7da1e shape.SquarePrism@5b464ce8 shape.TriangularPrism@57829d67 shape.OctagonalPrism@19dfb72a shape.Cone@17c68925 shape.Pyramid@7e0ea639 shape.PentagonalPrism@3d24753a shape.SquarePrism@59a6e353 shape.OctagonalPrism@7a0ac6e3 shape.SquarePrism@71be98f5 shape.Cone@6fadae5d shape.Cone@17f6480 shape.Cone@2d6e8792 shape.Cone@2812cbfa shape.Cylinder@2acf57e3 shape.Cylinder@506e6d5e shape.Cylinder@96532d6 
+Last: shape.OctagonalPrism@3796751b
 Using Merge Sort:
 File Name: polyfor1.txt, Sort Type: m, Compare Type: v.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 31 milliseconds.
+Start Sorting ... Sorting took: 27 milliseconds.
+First: shape.Pyramid@7f63425a
+shape.SquarePrism@36d64342 shape.Cone@511baa65 shape.PentagonalPrism@340f438e shape.PentagonalPrism@30c7da1e shape.SquarePrism@5b464ce8 shape.TriangularPrism@57829d67 shape.OctagonalPrism@19dfb72a shape.Cone@17c68925 shape.Pyramid@7e0ea639 shape.PentagonalPrism@3d24753a shape.SquarePrism@59a6e353 shape.OctagonalPrism@7a0ac6e3 shape.SquarePrism@71be98f5 shape.Cone@6fadae5d shape.Cone@17f6480 shape.Cone@2d6e8792 shape.Cone@2812cbfa shape.Cylinder@2acf57e3 shape.Cylinder@506e6d5e shape.Cylinder@96532d6 
+Last: shape.OctagonalPrism@3796751b
 Using QuickSort:
 File Name: polyfor1.txt, Sort Type: q, Compare Type: v.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 27 milliseconds.
+Start Sorting ... Sorting took: 22 milliseconds.
+First: shape.Pyramid@7f63425a
+shape.SquarePrism@36d64342 shape.Cone@511baa65 shape.PentagonalPrism@340f438e shape.PentagonalPrism@30c7da1e shape.SquarePrism@5b464ce8 shape.TriangularPrism@57829d67 shape.OctagonalPrism@19dfb72a shape.Cone@17c68925 shape.Pyramid@7e0ea639 shape.PentagonalPrism@3d24753a shape.SquarePrism@59a6e353 shape.OctagonalPrism@7a0ac6e3 shape.SquarePrism@71be98f5 shape.Cone@6fadae5d shape.Cone@17f6480 shape.Cone@2d6e8792 shape.Cone@2812cbfa shape.Cylinder@2acf57e3 shape.Cylinder@506e6d5e shape.Cylinder@96532d6 
+Last: shape.OctagonalPrism@3796751b
 Using Custom Sort:
 File Name: polyfor1.txt, Sort Type: z, Compare Type: v.
 loading 20237 Datas ... Shapes loaded: 20237.
-Start Sorting ... Sorting took: 44 milliseconds.
+Start Sorting ... Sorting took: 32 milliseconds.
+First: shape.Pyramid@7f63425a
+shape.SquarePrism@36d64342 shape.Cone@511baa65 shape.PentagonalPrism@340f438e shape.PentagonalPrism@30c7da1e shape.SquarePrism@5b464ce8 shape.TriangularPrism@57829d67 shape.OctagonalPrism@19dfb72a shape.Cone@17c68925 shape.Pyramid@7e0ea639 shape.PentagonalPrism@3d24753a shape.SquarePrism@59a6e353 shape.OctagonalPrism@7a0ac6e3 shape.SquarePrism@71be98f5 shape.Cone@6fadae5d shape.Cone@17f6480 shape.Cone@2d6e8792 shape.Cone@2812cbfa shape.Cylinder@2acf57e3 shape.Cylinder@506e6d5e shape.Cylinder@96532d6 
+Last: shape.OctagonalPrism@3796751b
 Tests complete!

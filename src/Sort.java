@@ -64,9 +64,23 @@ public class Sort {
 		long endTime = System.nanoTime();
 		// Calculate and output the time required
 		long duration = (endTime - startTime) / 1_000_000; // Convert to milliseconds
+		
 
 		// Display the time taken for sorting
 		System.out.println("Sorting took: " + duration + " milliseconds.");
+		
+		if (shapes.length > 0) {
+		    // Print the first value
+		    System.out.println("First: " + shapes[0]);
+
+		    // Print every 1000th value
+		    for (int i = 1000; i < shapes.length; i += 1000) {
+		        System.out.print(shapes[i]+ " ");
+		    }
+
+		    // Print the last value
+		    System.out.println("\nLast: " + shapes[shapes.length - 1]);
+		}
 
 	}
 }
