@@ -12,9 +12,12 @@ public abstract class Shape3D implements Comparable<Shape3D> {
      * Enum representing the types of criteria by which shapes can be compared.
      */
 	public enum CompareType {
-		H, // HEIGHT
-		V, // VOLUME
-		A; // BASE_AREA
+		/** HEIGHT */
+		H,
+		/** VOLUME */
+		V,
+		/** BASE_AREA */
+		A;
 
         /**
          * Converts a string representation to its respective {@code CompareType}.
