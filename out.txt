@@ -1,0 +1,103 @@
+-------------------------------
+Testing Invalid file name...
+-------------------------------
+File Name: nonexistentfile.txt, Sort Type: m, Compare Type: v.
+Error reading from file: nonexistentfile.txt
+-------------------------------
+Testing Invalid Compare Type...
+-------------------------------
+File Name: polyfor1.txt, Sort Type: m, Compare Type: k.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Invalid compare type: k
+-------------------------------
+Testing Invalid Sort Type...
+-------------------------------
+File Name: polyfor1.txt, Sort Type: k, Compare Type: v.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Invalid sorting algorithm: k
+Sorting took: 7 milliseconds.
+-------------------------------
+Testing existing file: polyfor1.txt...
+-------------------------------
+-----
+Testing height (h) sorting type:
+-----
+Using Bubble Sort:
+File Name: polyfor1.txt, Sort Type: b, Compare Type: h.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 7580 milliseconds.
+Using Insertion Sort:
+File Name: polyfor1.txt, Sort Type: i, Compare Type: h.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 2745 milliseconds.
+Using Selection Sort:
+File Name: polyfor1.txt, Sort Type: s, Compare Type: h.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 4679 milliseconds.
+Using Merge Sort:
+File Name: polyfor1.txt, Sort Type: m, Compare Type: h.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 30 milliseconds.
+Using QuickSort:
+File Name: polyfor1.txt, Sort Type: q, Compare Type: h.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 24 milliseconds.
+Using Custom Sort:
+File Name: polyfor1.txt, Sort Type: z, Compare Type: h.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 33 milliseconds.
+-----
+Testing Area (a) sorting type:
+-----
+Using Bubble Sort:
+File Name: polyfor1.txt, Sort Type: b, Compare Type: a.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 7618 milliseconds.
+Using Insertion Sort:
+File Name: polyfor1.txt, Sort Type: i, Compare Type: a.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 2697 milliseconds.
+Using Selection Sort:
+File Name: polyfor1.txt, Sort Type: s, Compare Type: a.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 6114 milliseconds.
+Using Merge Sort:
+File Name: polyfor1.txt, Sort Type: m, Compare Type: a.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 28 milliseconds.
+Using QuickSort:
+File Name: polyfor1.txt, Sort Type: q, Compare Type: a.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 22 milliseconds.
+Using Custom Sort:
+File Name: polyfor1.txt, Sort Type: z, Compare Type: a.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 59 milliseconds.
+-----
+Testing volume (v) sorting type:
+-----
+Using Bubble Sort:
+File Name: polyfor1.txt, Sort Type: b, Compare Type: v.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 10108 milliseconds.
+Using Insertion Sort:
+File Name: polyfor1.txt, Sort Type: i, Compare Type: v.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 3310 milliseconds.
+Using Selection Sort:
+File Name: polyfor1.txt, Sort Type: s, Compare Type: v.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 7531 milliseconds.
+Using Merge Sort:
+File Name: polyfor1.txt, Sort Type: m, Compare Type: v.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 26 milliseconds.
+Using QuickSort:
+File Name: polyfor1.txt, Sort Type: q, Compare Type: v.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 24 milliseconds.
+Using Custom Sort:
+File Name: polyfor1.txt, Sort Type: z, Compare Type: v.
+loading 20237 Datas ... Shapes loaded: 20237.
+Start Sorting ... Sorting took: 32 milliseconds.
+Tests complete!
