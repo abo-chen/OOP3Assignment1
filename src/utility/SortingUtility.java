@@ -1,9 +1,21 @@
 package utility;
-import java.util.Comparator;
 
+import java.util.Comparator;
 import shape.Shape3D;
 
+/**
+ * A utility class that provides multiple sorting algorithms to sort arrays of
+ * {@link Shape3D}. The sorting is based on custom comparison logic provided via
+ * {@link Comparator<Shape3D>}.
+ */
 public class SortingUtility {
+
+	/**
+	 * Sorts the given array of shapes using heap sort algorithm.
+	 *
+	 * @param shapes     the array of shapes to be sorted.
+	 * @param comparator the comparator to determine the order of the shapes.
+	 */
 	public static void heapSort(Shape3D[] shapes, Comparator<Shape3D> comparator) {
 		int n = shapes.length;
 
@@ -43,6 +55,12 @@ public class SortingUtility {
 		}
 	}
 
+	/**
+	 * Sorts the given array of shapes using bubble sort algorithm.
+	 *
+	 * @param shapes     the array of shapes to be sorted.
+	 * @param comparator the comparator to determine the order of the shapes.
+	 */
 	public static void bubbleSort(Shape3D[] shapes, Comparator<Shape3D> comparator) {
 		int n = shapes.length;
 		for (int i = 0; i < n - 1; i++)
@@ -54,6 +72,12 @@ public class SortingUtility {
 				}
 	}
 
+	/**
+	 * Sorts the given array of shapes using insertion sort algorithm.
+	 *
+	 * @param shapes     the array of shapes to be sorted.
+	 * @param comparator the comparator to determine the order of the shapes.
+	 */
 	public static void insertionSort(Shape3D[] shapes, Comparator<Shape3D> comparator) {
 		int n = shapes.length;
 		for (int i = 1; i < n; i++) {
@@ -68,6 +92,12 @@ public class SortingUtility {
 		}
 	}
 
+	/**
+	 * Sorts the given array of shapes using selection sort algorithm.
+	 *
+	 * @param shapes     the array of shapes to be sorted.
+	 * @param comparator the comparator to determine the order of the shapes.
+	 */
 	public static void selectionSort(Shape3D[] shapes, Comparator<Shape3D> comparator) {
 		int n = shapes.length;
 		for (int i = 0; i < n - 1; i++) {
@@ -82,6 +112,12 @@ public class SortingUtility {
 		}
 	}
 
+	/**
+	 * Sorts the given array of shapes using merge sort algorithm.
+	 *
+	 * @param shapes     the array of shapes to be sorted.
+	 * @param comparator the comparator to determine the order of the shapes.
+	 */
 	public static void mergeSort(Shape3D[] shapes, Comparator<Shape3D> comparator) {
 		mergeSortHelper(shapes, 0, shapes.length - 1, comparator);
 	}
@@ -124,6 +160,12 @@ public class SortingUtility {
 		}
 	}
 
+	/**
+	 * Sorts the given array of shapes using quick sort algorithm.
+	 *
+	 * @param shapes     the array of shapes to be sorted.
+	 * @param comparator the comparator to determine the order of the shapes.
+	 */
 	public static void quickSort(Shape3D[] shapes, Comparator<Shape3D> comparator) {
 		quickSortHelper(shapes, 0, shapes.length - 1, comparator);
 	}
@@ -156,6 +198,13 @@ public class SortingUtility {
 		return i + 1;
 	}
 
+	/**
+	 * Sorts the given array of shapes based on the specified sorting type.
+	 *
+	 * @param sortType   the type of sorting algorithm to use.
+	 * @param shapes     the array of shapes to be sorted.
+	 * @param comparator the comparator to determine the order of the shapes.
+	 */
 	public static void Sort(String sortType, Shape3D[] shapes, Comparator<Shape3D> comparator) {
 
 		switch (sortType.toLowerCase()) {

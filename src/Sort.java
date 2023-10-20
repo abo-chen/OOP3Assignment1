@@ -5,7 +5,23 @@ import utility.CommandLineParser;
 import utility.ShapesReader;
 import utility.SortingUtility;
 
+
+/**
+ * Sorts an array of 3D shapes based on user-specified criteria.
+ * <p>
+ * This program takes in command line arguments to specify the name of the file containing shape data, 
+ * the type of sort, and the property of the shape to be compared (e.g. height, volume, area.). It then 
+ * reads the shapes from the file, sorts them based on the specified criteria, and prints out the time 
+ * taken to perform the sort.
+ * </p>
+ */
 public class Sort {
+	
+	/**
+	 * Entry point for the sorting program.
+	 *
+	 * @param args command line arguments specifying the file name, sort type, and compare type.
+	 */
 	public static void main(String[] args) {
 
 		CommandLineParser parser = new CommandLineParser();
@@ -13,13 +29,12 @@ public class Sort {
 			System.out.print("File Name: " + parser.getFileName());
 			System.out.print(", Sort Type: " + parser.getSortType());
 			System.out.println(", Compare Type: " + parser.getCompareType() + ".");
-			// Further processing based on the inputs...
 		} else {
 			parser.showHelp();
 		}
 
 		Shape3D[] shapes;
-
+		// Load shapes from the specified file
 		try {
 			shapes = ShapesReader.readShapesFromLargeFile(parser.getFileName());
 			System.out.println("Shapes loaded: " + shapes.length + ".");
@@ -42,7 +57,7 @@ public class Sort {
 			return;
 		}
 
-		// Sorting
+		// Sort shapes using the specified comparator
 		SortingUtility.Sort(parser.getSortType(), shapes, comparator);
 
 		// Get end time
@@ -50,6 +65,7 @@ public class Sort {
 		// Calculate and output the time required
 		long duration = (endTime - startTime) / 1_000_000; // Convert to milliseconds
 
+		// Display the time taken for sorting
 		System.out.println("Sorting took: " + duration + " milliseconds.");
 
 	}
